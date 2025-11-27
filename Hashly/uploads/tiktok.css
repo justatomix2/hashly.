@@ -1,0 +1,12 @@
+.tiktok-feed {
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: 80vh;
+}
+.tiktok-feed > div {
+  scroll-snap-align: start;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
